@@ -42,3 +42,9 @@
 ;; dash (cocoa-emacs only)
 (global-set-key (kbd "C-c d") 'dash-at-point)
 (global-set-key (kbd "C-c e") 'dash-at-point-with-docset)
+
+;; F8 to C-x
+(global-set-key (kbd "<f8>") 'Control-X-prefix)
+
+;; F1 to grep-find
+(global-set-key (kbd "<f1>") 'grep-find)
