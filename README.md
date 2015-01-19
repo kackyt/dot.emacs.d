@@ -3,7 +3,7 @@
 
 ＊要 Emacs24 以上
 
-    git clone git://github.com/catatsuy/dot.emacs.d.git ~/.emacs.d
+    git clone git://github.com/kackyt/dot.emacs.d.git ~/.emacs.d
 
 
 ## 設計思想

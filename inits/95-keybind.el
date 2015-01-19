@@ -48,3 +48,6 @@
 
 ;; F1 to grep-find
 (global-set-key (kbd "<f1>") 'grep-find)
+
+;; F2 to gresreg
+(global-set-key (kbd "<f2>") 'gresreg)
