@@ -52,9 +52,6 @@
 ;; F2 to gresreg
 (global-set-key (kbd "<f2>") 'gresreg)
 
-;; yen to backslash
-(define-key global-map [165] [92])
-
 (require 'redo+)
 
 (global-set-key (kbd "C-_") 'redo)
