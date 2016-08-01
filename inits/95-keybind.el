@@ -38,6 +38,10 @@
 ;;; window の移動
 (global-set-key (kbd "C-z") 'other-window-or-split)
 (global-set-key (kbd "C-S-z") 'previous-multiframe-window)
+(global-set-key (kbd "M-<left>") 'windmove-left)
+(global-set-key (kbd "M-<down>") 'windmove-down)
+(global-set-key (kbd "M-<up>") 'windmove-up)
+(global-set-key (kbd "M-<right>") 'windmove-right)
 
 ;; dash (cocoa-emacs only)
 (global-set-key (kbd "C-c d") 'dash-at-point)
