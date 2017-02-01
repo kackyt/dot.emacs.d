@@ -55,6 +55,10 @@
     rainbow-mode
     web-beautify
     redo+
+    elixir-mode
+    alchemist
+    ac-alchemist
+    flycheck-elixir
     ))
 
 (let ((not-installed (loop for x in installing-package-list
@@ -68,3 +72,31 @@
 (require 'init-loader)
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(display-time-mode t)
+ '(foreign-regexp/regexp-type (quote ruby))
+ '(google-translate-default-source-language "ja")
+ '(google-translate-default-target-language "en")
+ '(haskell-mode-hook (quote (turn-on-haskell-indentation)))
+ '(js2-basic-offset 2)
+ '(markdown-command "mdown")
+ '(markdown-css-path "file:///Users/catatsuy/.emacs.d/markdown.css")
+ '(menu-bar-mode nil)
+ '(package-selected-packages
+   (quote
+    (flycheck-elixir ac-alchemist alchemist elixir-mode zenburn-theme yard-mode yaml-mode web-beautify ssh-config-mode smarty-mode smartrep slim-mode scss-mode scala-mode2 redo+ recentf-ext rainbow-mode popwin php-mode open-junk-file migemo markdown-mode lua-mode js2-mode jade-mode init-loader highlight-symbol haskell-mode haml-mode google-translate google-c-style go-mode go-autocomplete foreign-regexp flycheck expand-region exec-path-from-shell enh-ruby-mode emmet-mode dropdown-list dash-at-point coffee-mode auto-highlight-symbol apache-mode)))
+ '(reb-re-syntax (quote foreign-regexp))
+ '(tool-bar-mode nil)
+ '(transient-mark-mode t)
+ '(vc-handled-backends nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
