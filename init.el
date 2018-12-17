@@ -16,7 +16,6 @@
     ;; ここに使っているパッケージを書く。
     init-loader
     php-mode
-    scala-mode2
     markdown-mode
     scss-mode
     haskell-mode
@@ -25,7 +24,6 @@
     yaml-mode
     flycheck
     exec-path-from-shell
-    dropdown-list
     migemo
     open-junk-file
     recentf-ext
@@ -54,7 +52,7 @@
     lua-mode
     rainbow-mode
     web-beautify
-    redo+
+    undo-tree
     elixir-mode
     alchemist
     ac-alchemist
