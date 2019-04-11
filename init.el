@@ -57,6 +57,8 @@
     alchemist
     ac-alchemist
     flycheck-elixir
+    cmake-mode
+    review-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list

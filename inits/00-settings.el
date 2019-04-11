@@ -64,3 +64,5 @@
 
 ;; ウィンドウを左右に分割したときに行を折り返さない
 (setq-default truncate-partial-width-windows t)
+
+(define-key global-map [?¥] [?\\])  ;; ¥の代わりにバックスラッシュを入力する
