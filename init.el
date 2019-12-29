@@ -86,7 +86,7 @@
  '(js2-basic-offset 2)
  '(markdown-command "mdown")
  '(markdown-css-path "file:///Users/catatsuy/.emacs.d/markdown.css")
- '(menu-bar-mode nil)
+ '(menu-bar-mode t)
  '(package-selected-packages
    (quote
     (flycheck-elixir ac-alchemist alchemist elixir-mode zenburn-theme yard-mode yaml-mode web-beautify ssh-config-mode smarty-mode smartrep slim-mode scss-mode scala-mode2 redo+ recentf-ext rainbow-mode popwin php-mode open-junk-file migemo markdown-mode lua-mode js2-mode jade-mode init-loader highlight-symbol haskell-mode haml-mode google-translate google-c-style go-mode go-autocomplete foreign-regexp flycheck expand-region exec-path-from-shell enh-ruby-mode emmet-mode dropdown-list dash-at-point coffee-mode auto-highlight-symbol apache-mode)))
