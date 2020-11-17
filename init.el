@@ -72,6 +72,8 @@
 (require 'init-loader)
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
+;; デフォルト文字コード
+(set-default-coding-systems 'utf-8-unix)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -83,7 +85,6 @@
  '(google-translate-default-source-language "ja")
  '(google-translate-default-target-language "en")
  '(haskell-mode-hook (quote (turn-on-haskell-indentation)))
- '(js2-basic-offset 2)
  '(markdown-command "mdown")
  '(markdown-css-path "file:///Users/catatsuy/.emacs.d/markdown.css")
  '(menu-bar-mode t)
